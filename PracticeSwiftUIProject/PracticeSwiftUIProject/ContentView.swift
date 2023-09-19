@@ -8,14 +8,56 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var isActivated: Bool = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        NavigationView{
+            VStack{
+                HStack{
+                    MyVstackView();
+                    MyVstackView();
+                    MyVstackView();
+                }
+                .padding(isActivated ? 50.0 : 10.0)
+                .background(isActivated ? Color.yellow : Color.black)
+                .onTapGesture{
+                    withAnimation{
+                        self.isActivated.toggle()
+                    }
+                }
+                
+                NavigationLink(destination: MyTextView()){
+                    Text("Navigation")
+                        .fontWeight(.bold)
+                        .font(.system(size: 40))
+                        .padding()
+                        .background(Color.orange)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(30)
+                }
+                .padding(.top, 50)
+            }
+            
         }
-        .padding()
+    }
+}
+
+struct MyVstackView: View{
+    var body: some View{
+        VStack{
+            Text("1")
+                .fontWeight(.bold)
+                .font(.system(size: 50))
+            Text("2")
+                .fontWeight(.bold)
+                .font(.system(size: 50))
+            Text("3")
+                .fontWeight(.bold)
+                .font(.system(size: 50))
+        }
+        .background(Color.orange)
     }
 }
 
