@@ -17,6 +17,10 @@
 		DAB000552ABAB7FC00B995CF /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB000542ABAB7FC00B995CF /* MyCard.swift */; };
 		DAB000572ABABD3400B995CF /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB000562ABABD3400B995CF /* MyList.swift */; };
 		DAB000592ABAC44F00B995CF /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB000582ABAC44F00B995CF /* MyNavigationView.swift */; };
+		DAB0005B2ABACA5000B995CF /* MyGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0005A2ABACA5000B995CF /* MyGeometryReader.swift */; };
+		DAB0005D2ABACE3C00B995CF /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0005C2ABACE3C00B995CF /* MyTabView.swift */; };
+		DAB0005F2ABAD28000B995CF /* MyCustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0005E2ABAD28000B995CF /* MyCustomTabView.swift */; };
+		DAB000612ABAD77A00B995CF /* MyMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB000602ABAD77A00B995CF /* MyMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		DAB000542ABAB7FC00B995CF /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 		DAB000562ABABD3400B995CF /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 		DAB000582ABAC44F00B995CF /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
+		DAB0005A2ABACA5000B995CF /* MyGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReader.swift; sourceTree = "<group>"; };
+		DAB0005C2ABACE3C00B995CF /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		DAB0005E2ABAD28000B995CF /* MyCustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTabView.swift; sourceTree = "<group>"; };
+		DAB000602ABAD77A00B995CF /* MyMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,7 @@
 			children = (
 				DA83FB6A2AB9E627001C8AAE /* Info.plist */,
 				DA83FB582AB9CC86001C8AAE /* PracticeSwiftUIProjectApp.swift */,
+				DAB000602ABAD77A00B995CF /* MyMenuView.swift */,
 				DA83FB5A2AB9CC86001C8AAE /* ContentView.swift */,
 				DA83FB5C2AB9CC88001C8AAE /* Assets.xcassets */,
 				DA83FB5E2AB9CC88001C8AAE /* Preview Content */,
@@ -75,6 +84,9 @@
 				DAB000542ABAB7FC00B995CF /* MyCard.swift */,
 				DAB000562ABABD3400B995CF /* MyList.swift */,
 				DAB000582ABAC44F00B995CF /* MyNavigationView.swift */,
+				DAB0005A2ABACA5000B995CF /* MyGeometryReader.swift */,
+				DAB0005C2ABACE3C00B995CF /* MyTabView.swift */,
+				DAB0005E2ABAD28000B995CF /* MyCustomTabView.swift */,
 			);
 			path = PracticeSwiftUIProject;
 			sourceTree = "<group>";
@@ -158,11 +170,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA83FB5B2AB9CC86001C8AAE /* ContentView.swift in Sources */,
+				DAB000612ABAD77A00B995CF /* MyMenuView.swift in Sources */,
 				DA83FB692AB9E570001C8AAE /* MyWebView.swift in Sources */,
 				DAB000592ABAC44F00B995CF /* MyNavigationView.swift in Sources */,
 				DA83FB672AB9D6A4001C8AAE /* MyTextView.swift in Sources */,
+				DAB0005D2ABACE3C00B995CF /* MyTabView.swift in Sources */,
+				DAB0005F2ABAD28000B995CF /* MyCustomTabView.swift in Sources */,
 				DA83FB6C2AB9F1F8001C8AAE /* CircleImageView.swift in Sources */,
 				DA83FB592AB9CC86001C8AAE /* PracticeSwiftUIProjectApp.swift in Sources */,
+				DAB0005B2ABACA5000B995CF /* MyGeometryReader.swift in Sources */,
 				DAB000572ABABD3400B995CF /* MyList.swift in Sources */,
 				DAB000552ABAB7FC00B995CF /* MyCard.swift in Sources */,
 			);
